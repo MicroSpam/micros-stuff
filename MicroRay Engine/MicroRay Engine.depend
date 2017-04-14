@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1492192031 source:/home/microspam/Programming Projects/MicroRay Engine/MicroRay Engine/ErrorHandler.cpp
+	"ErrorHandler.h"
+
+1492191972 /home/microspam/Programming Projects/MicroRay Engine/MicroRay Engine/ErrorHandler.h
+	<SDL2/SDL.h>
+	<iostream>
+
+1492191082 source:/home/microspam/Programming Projects/MicroRay Engine/MicroRay Engine/main.cpp
+	"Application.h"
+
+1492192711 /home/microspam/Programming Projects/MicroRay Engine/MicroRay Engine/Application.h
+	<iostream>
+	<SDL2/SDL.h>
+	"ErrorHandler.h"
+
