@@ -11,6 +11,7 @@ class Application {
 public:
 
 Application();
+~Application();
 
 SDL_Window* window;
 SDL_Surface* surface;

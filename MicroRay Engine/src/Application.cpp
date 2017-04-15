@@ -7,6 +7,12 @@ Application::Application()
     Init();
 }
 
+Application::~Application()
+{
+    window = NULL;
+    surface = NULL;
+}
+
 bool Application::Init()
 {
     if(SDL_Init(SDL_INIT_VIDEO) < 0)
@@ -18,7 +24,7 @@ bool Application::Init()
     else
     {
     window = SDL_CreateWindow("MicroRay Engine", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, m_SCREEN_WIDTH, m_SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
-        if (window = NULL)
+        if (window == NULL)
         {
             errHandler.GetError();
             return false;
